@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code with Lynn</title>
+    <!-- Favicon link -->
+     <link rel="shortcut icon" href="../assets/img/favicon.PNG" type="image/x-icon">
+    <!-- cascading style sheet -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/mobile.css">
+
+    <!-- fontawesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-brand">
+                <a href="index.html"><h1>Code with <span>Lynn</span></h1></a>
+            </div>
+
+            <div class="mobile-menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="overlay-menu-container">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="path.html">Learning Paths</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="member-btn"><a href="login.html">Member Area</a></li>
+            </ul>
+        </nav>
+
+        <div class="overlay-menu-container" id="overlay-menu-container">
+            <ul class="overlay-menu-items" id="overlay-menu-items">
+                <li><a href="subscribe.html">Subscribe</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="path.html">Learning Paths</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="member-btn"><a href="login.html">Member Area</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="contact-form">
+        <div class="form-title">
+            <h1>Contact Us</h1>
+            <p>We're here for you: Connect with us for any questions or concerns.</p>
+        </div>
+        <form action="">
+            <div class="form-description">
+                <p>
+                    For technical questions, please post your questions on our <a href="forum.html">forum</a> where you can get help from fellow students.
+                </p>
+                <p>
+                    For course suggestions and career advice, check out our <a href="path.html">learning paths</a>.
+                </p>
+
+                <div class="input-group">
+                    <label for="email">Your email:</label>
+                    <input type="email" name="email">
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Your message:</label>
+                    <textarea name="message" id="" rows="5"></textarea>
+                </div>
+
+                <div class="submit-btn">
+                    <button type="submit">
+                        SEND
+                    </button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p class="copyright">
+            &copy; Code with Lynn
+        </p>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <div class="legal-links">
+            <a href="/terms-of-use" class="legal-link" id="terms-of-use">Terms of Use</a>
+            <a href="/privacy-policy" class="legal-link" id="privacy-policy">Privacy Policy</a>
+        </div>
+        
+    </footer>
+    <script src="../assets/js/scripts.js"></script>
+
+</body>
+</html>
